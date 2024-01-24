@@ -28,7 +28,7 @@ app.get('/', async (req, res) => {
         const img = musico$('.mw-file-element').attr('src');
         const text =musico$('p:first').text();
       
-        return { title,img,text }; // Puedes agregar más datos según tus necesidades
+        return { title,img,text }
        
       });
 
